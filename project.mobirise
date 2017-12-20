@@ -178,7 +178,7 @@
               }
             },
             "H2": {
-              "color": "#1b3a7f",
+              "color": "#232323",
               "text-align": "center"
             }
           },
@@ -227,117 +227,6 @@
           "_once": false,
           "_params": {},
           "_anchor": "info1-18"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "text-align": "center"
-            },
-            "H2": {
-              "color": "#1b3a7f"
-            },
-            ".mbr-section-subtitle B": {
-              "color": "#767676"
-            },
-            "B": {
-              "color": "#232323"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"><b>AQUEST 2018</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Serà un any on destacarà el rendiment i l'eficència energètica.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qEfI48IAA3",
-          "_anchor": "content4-i",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "animType": "blur",
-            "theme": "graffito",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/amd-ryzen-3-2300u-apu-1024x577.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/amd-ryzen-3-2300u-apu-740x417.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/amd-ryzen-3-2300u-apu-1-85x47.png",
-                "title": "RYZEN MOBILE GRAPHICS",
-                "text": "NOVA GENERACIÓ CHIPS GRÀFICS PER A DISPOSITIUS MÒBILS",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/59428-04-amds-next-gen-navi-gpu-launching-august-2019-1024x576.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/59428_04_amds-next-gen-navi-gpu-launching-august-2018-2000x1125.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/59428-04-amds-next-gen-navi-gpu-launching-august-2018-85x47.png",
-                "title": "AMD RADEON ",
-                "text": "NOVA GENERACIÓ DE TARGETES GRÀFIQUES",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/series-161-a9-1024x626.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/series-161-a9-660x404.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/series-161-a9-1-78x48.png",
-                "title": "NVIDIA 2018",
-                "text": "VOLTA ESTA A LA VOLTA DE LA CANTONADA",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/amd-zen-4-1024x576.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/amd-zen-3-2000x1125.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/amd-zen-4-85x47.png",
-                "title": "AMD RYZEN",
-                "text": "NOVA GENERACIÓ DE PROCESSADORS",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/amd-ryzen-3-2300u-apu-1024x577.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/amd-ryzen-3-2300u-apu-740x417.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/amd-ryzen-3-2300u-apu-85x47.png",
-                "title": "NVIDIA 2018",
-                "text": "VOLTA ESTA A LA VOLTA DE LA CANTONADA",
-                "active": false
-              }
-            ],
-            "fullScreen": true,
-            "showCaptions": true,
-            "hideControls": true,
-            "responsive": "1",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "captionsEffect": "move",
-            "showBullets": true,
-            "bgColor": "#ffffff",
-            "timeout": "3",
-            "duration": "3",
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "1024x768",
-            "width": "1024",
-            "height": "768"
-          },
-          "articleLayout": false,
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_anchor": "wowslider-u"
         },
         {
           "_styles": {
